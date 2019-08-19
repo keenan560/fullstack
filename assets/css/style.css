@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed&display=swap');
+
+body {
+    background-image: url(../images/darker.jpg);
+    /* background-color: darkgrey; */
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+} 
+
+nav {
+    background-color: rgb(30, 30, 30) !important;
+    /* border-bottom: white thick solid; */
+}
+
+.navbar-brand {
+    color: rgb(203, 203, 65) !important;
+    font-size: 36px !important;
+    border: solid thin  rgb(203, 203, 65);
+
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#Home {
+    color: rgb(181, 206, 68) !important;
+}
+
+#Resume {
+    color: rgb(156, 220, 254)!important;
+}
+
+#Portfolio {
+    color: rgb(206, 145, 120) !important;
+}
+
+.jumbotron {
+    background-color: rgb(30, 30, 30);
+}
+
+#title-holder {
+    border: thick solid  rgb(80, 143, 204);
+   
+}
+
+#title {
+    color: rgb(80, 143, 204)
+}
+
+.img-thumbnail {
+    height: 150px;
+    width: 150px;
+    border: thick rgb(181, 206, 68) solid;
+    background-color: rgb(30, 30, 30);
+}
+.card {
+    background-color: rgb(30, 30, 30);
+    border: thick rgb(181, 206, 68) solid;
+}
+
+.card-title {
+    color: rgb(203, 203, 65);
+}
+
+#p1 {
+    color: rgb(206, 145, 120);
+}
+#small {
+    color: rgb(156, 220, 254) !important;
+}
+#profile {
+    /* border: white thick solid; */
+}
+
+/* .progress-bar {
+    background-color: rgb(206, 145, 120) !important;
+} */
+
+.btn {
+    color: white !important;
+    background-color: rgb(30, 30, 30);
+    border: thick rgb(181, 206, 68) solid;
+    width: 150px;
+    font-size: 24px;
+}
+
+/* #skills-bg {
+    
+} */
+
+.skills-header {
+    border: thick rgb(181, 206, 68) solid;
+    background-color: rgb(30, 30, 30);
+    width: 300px;
+}
+
+#html-bar {
+   background-color: rgb(156, 220, 254) !important;
+}
+
+#css-bar {
+    background-color: rgb(203, 203, 65) !important;
+}
+
+#javascript-bar {
+    background-color: teal !important;
+}
+
+footer {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center !important;
+    /* padding: 10px !important; */
+    width: 100%;
+    /* border-top: white solid thick; */
+    overflow: hidden !important;
+}
