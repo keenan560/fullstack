@@ -89,7 +89,7 @@ nav {
     color: white !important;
     background-color: rgb(30, 30, 30);
     border: thick rgb(181, 206, 68) solid;
-    width: 150px;
+    /* width: 150px; */
     font-size: 24px;
 }
 
