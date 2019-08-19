@@ -33,7 +33,7 @@ $(document).on("click", "#javascript", function (event) {
     event.preventDefault();
     $("#feed").html(`<p class='h1 text-white'>{Javascript: 94%}</p> <div class="progress">
   <div class="progress-bar progress-bar-animated bg-info" role="progressbar" style="width: 94%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-</div>`);
+</div><ul class='text-white'>Libraries<li>jQuery</li><li>NodeJS</li><li>express.js</li><li>express-handlebars</li></ul>`);
 })
 
 $(document).on("click", "#sql", function (event) {
