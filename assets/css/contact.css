@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed&display=swap');
 
 body {
-    background-image: url(../images/mac.jpg);
+    background-image: url(../images/headshot.JPG);
     /* background-color: rgb(30, 30, 30); */
     background-position: center center;
+    background-color: rgb(3, 3, 3);
     background-repeat:  no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 60%;
     font-family: 'Roboto Condensed', sans-serif;
 
 } 
 
-nav {
-    /* background-color: rgb(30, 30, 30); */
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-brand {
