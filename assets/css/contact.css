@@ -121,6 +121,12 @@ a {
     background-color: teal !important
 }
 
+#talk {
+    position: fixed !important;
+    bottom: -500px !important;
+    margin-left: 20px !important;
+}
+
 footer {
     background-color: rgb(30, 30, 30);
     color: white;
