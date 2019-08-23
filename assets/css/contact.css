@@ -125,7 +125,13 @@ a {
     position: fixed !important;
     bottom: -500px !important;
     margin-left: 20px !important;
+    color: rgb(181, 206, 68) !important;
 }
+
+#business {
+    color: rgb(181, 206, 68) !important;
+}
+
 
 footer {
     background-color: rgb(30, 30, 30);
