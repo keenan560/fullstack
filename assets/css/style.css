@@ -3,18 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed&display=swap');
 
 body {
-    /* background-image: url(../images/darker.jpg); */
+    background-image: url(../images/brain.jpg); 
     background-color: rgb(30, 30, 30);
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:  cover;
     font-family: 'Roboto Condensed', sans-serif;
 
 } 
 
 nav {
-
+    /* background-color: rgb(30, 30, 30); */
 }
 
 .navbar-brand {
@@ -81,15 +81,33 @@ nav {
     color: rgb(156, 220, 254) !important;
 }
 
+#name1 {
+    color: rgb(203, 203, 65);
+    
+}
 
+#name2 {
+    color: white;
+    
+}
+
+#name-holder {
+    position: fixed;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+/* 
 .btn {
-    color: white !important;
-    background-color: rgb(30, 30, 30);
+    color: yellow !important;
+    background-color: rgb(80, 143, 204);
     border: thick rgb(181, 206, 68) solid;
     width: 100%;
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: bold;
+
     align-content: center !important;
-}
+} */
 
 #skills:hover {
     background-color: rgb(206, 145, 120);
@@ -99,7 +117,7 @@ nav {
 
 .skills-header {
     border: thick rgb(181, 206, 68) solid;
-    background-color: rgb(30, 30, 30);
+    /* background-color: rgb(30, 30, 30); */
     width: 300px;
 }
 
