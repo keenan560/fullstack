@@ -93,10 +93,15 @@ nav {
 
 #skills:hover {
     background-color: rgb(206, 145, 120);
-  
 }
 
+#resume:hover {
+    background-color: green;
+}
 
+#resume:focus {
+    background-color: pink;
+}
 .skills-header {
     border: thick rgb(181, 206, 68) solid;
     background-color: rgb(30, 30, 30);
@@ -108,15 +113,15 @@ nav {
 }
 
 #css-bar {
-    background-color: teal !important;
+    background-color:  blue!important;
 }
 
 #javascript-bar {
-    background-color: teal !important;
+    background-color: yellow !important;
 }
 
 #sql-bar {
-    background-color: teal !important
+    background-color: red !important
 }
 
 footer {
