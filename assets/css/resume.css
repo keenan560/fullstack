@@ -97,7 +97,13 @@ nav {
 }
 
 #skills:hover {
-    background-color: mediumslateblue;
+    background-color: yellow;
+    color: blue !important;
+}
+
+#skills:focus {
+    background-color: rgb(206, 145, 120);
+    color: white !important;
 }
 
 #resume:hover {
@@ -105,7 +111,7 @@ nav {
 }
 
 #resume:focus {
-    background-color: pink;
+    background-color: rgb(206, 145, 120);
 }
 .skills-header {
     border: thick rgb(181, 206, 68) solid;
