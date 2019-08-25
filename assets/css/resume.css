@@ -63,8 +63,8 @@ nav {
 .img-thumbnail {
     height: 15%;
     width: 15%;
-    border: thick black solid;
-    background-color: white;
+    border: thin black solid;
+    background-color: black;
 }
 .img-thumbnail:hover {
     background-color: yellow;

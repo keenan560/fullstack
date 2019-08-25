@@ -54,7 +54,7 @@ $(document).on("click", "#technologies", (event) => {
   logos.forEach(image => {
     var logo = $("<img>");
     logo.attr("src", image);
-    logo.addClass("img-thumbnail my-2 mx-2");
+    logo.addClass("img-thumbnail my-2 mx-2 p-2");
     row.append(logo);
   })
   $('#tech-feed').html(row);
