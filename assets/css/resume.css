@@ -114,8 +114,8 @@ nav {
     background-color: rgb(206, 145, 120);
 }
 .skills-header {
-    border: thick rgb(181, 206, 68) solid;
-    background-color: rgb(30, 30, 30);
+    border: thick white solid;
+    background-color: black;
     width: 300px;
 }
 
