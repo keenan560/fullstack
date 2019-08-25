@@ -61,8 +61,8 @@ nav {
 }
 
 .img-thumbnail {
-    height: 175px;
-    width: 175px;
+    height: 15%;
+    width: 15%;
     border: thick black solid;
     background-color: white;
 }
