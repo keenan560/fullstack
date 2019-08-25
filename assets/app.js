@@ -50,7 +50,7 @@ $(document).on("click", "#technologies", (event) => {
     scrollTop: $("#tech-feed").offset().top
   }, 'slow');
   var row = $("<div>");
-  row.addClass("container mx-4 animated fadeIn slow");
+  row.addClass("container mx-auto animated fadeIn slow");
   logos.forEach(image => {
     var logo = $("<img>");
     logo.attr("src", image);
