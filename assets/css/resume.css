@@ -61,10 +61,10 @@ nav {
 }
 
 .img-thumbnail {
-    height: 150px;
-    width: 150px;
-    border: thick rgb(181, 206, 68) solid;
-    background-color: rgb(30, 30, 30);
+    height: 175px;
+    width: 175px;
+    border: thick black solid;
+    background-color: white;
 }
 .img-thumbnail:hover {
     background-color: yellow;
@@ -98,7 +98,7 @@ nav {
 
 #skills:hover {
     background-color: yellow;
-    color: blue !important;
+    color: black !important;
 }
 
 #skills:focus {
@@ -117,6 +117,15 @@ nav {
     border: thick rgb(181, 206, 68) solid;
     background-color: rgb(30, 30, 30);
     width: 300px;
+}
+
+#technologies:hover {
+    background-color: red;
+}
+
+#technologies:focus {
+    background-color: powderblue;
+
 }
 
 #html-bar {
