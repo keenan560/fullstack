@@ -4,7 +4,7 @@
 
 body {
     /* background-image: url(../images/darkshop.jpeg); */
-    background-color: rgb(30, 30, 30);
+    background-color: black;
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ nav {
     border: thick solid rgb(156, 220, 254);
 }
 .card {
-    background-color: rgb(30, 30, 30);
+    background-color: black;
     border: thick rgb(181, 206, 68) solid;
 }
 
