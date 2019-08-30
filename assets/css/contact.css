@@ -145,3 +145,25 @@ footer {
     /* border-top: white solid thick; */
     overflow: hidden !important;
 }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 769px) {
+    body {
+        background-size: 115%;
+    }
+    .container {
+        float:  left !important;
+    }
+
+    #contact-info {
+        font-size: 28px !important;
+    }
+
+
+    #business {
+        font-size: 28px;
+        color: darkgreen !important;
+    }
+}

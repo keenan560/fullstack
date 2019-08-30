@@ -114,17 +114,6 @@ nav {
     margin-left: 10px;
 }
 
-/* 
-.btn {
-    color: yellow !important;
-    background-color: rgb(80, 143, 204);
-    border: thick rgb(181, 206, 68) solid;
-    width: 100%;
-    font-size: 32px;
-    font-weight: bold;
-
-    align-content: center !important;
-} */
 
 #skills:hover {
     background-color: rgb(206, 145, 120);
@@ -161,8 +150,38 @@ footer {
     left: 0;
     bottom: 0;
     text-align: center !important;
-    /* padding: 10px !important; */
-    width: 100%;
-    /* border-top: white solid thick; */
+    width: 100%; 
     overflow: hidden !important;
+}
+
+
+/* Media queries */
+
+
+@media only screen and (max-width: 900px) {
+    #name-holder {
+        position: relative;
+        bottom: 0;
+    }
+
+    #name1, #name2 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body, html {
+        background-color:  black !important;
+        background-image: url(); 
+    }
+
+    #name-holder {
+        position: relative;
+        bottom: 0;
+
+    }
+
+    #name1, #name2 {
+        font-size: 20px;
+    }
 }
