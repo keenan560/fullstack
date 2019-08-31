@@ -151,10 +151,11 @@ footer {
 
 @media only screen and (max-width: 769px) {
     body {
-        background-size: 115%;
+        background-size: 130%;
     }
     .container {
         float:  left !important;
+        
     }
 
     #contact-info {

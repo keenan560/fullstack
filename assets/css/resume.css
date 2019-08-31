@@ -161,3 +161,17 @@ footer {
     /* border-top: white solid thick; */
     overflow: hidden !important;
 }
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: 300%;
+        background-repeat: no-repeat;
+    }
+
+    img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
