@@ -87,7 +87,10 @@ nav {
 
 
 
-
+.port-buttons:hover {
+    background-color: ivory !important;
+    color: black !important;
+}
 
 footer {
     background-color: rgb(30, 30, 30);
