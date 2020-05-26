@@ -6,7 +6,7 @@ $(document).on("click", "#resume", (event) => {
   $('html, body').animate({
     scrollTop: $("#resume-feed").offset().top
   }, 'slow');
-  $("#resume-feed").html(`<iframe src='assets/FullStack Web Developer Resume-KM.pdf'>hello</</iframe>`)
+  $("#resume-feed").html(`<iframe src='assets/FullStack Web Developer Resume-KMv1.pdf'>hello</</iframe>`)
 });
 
 const logos = [
