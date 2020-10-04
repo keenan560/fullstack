@@ -1,106 +1,99 @@
-
-
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed&display=swap");
 
 body {
-    /* background-image: url(../images/darkshop.jpeg); */
-    background-color: black;
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Roboto Condensed', sans-serif;
-
-} 
+  /* background-image: url(../images/darkshop.jpeg); */
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 nav {
-    /* background-color: rgb(30, 30, 30); */
+  /* background-color: rgb(30, 30, 30); */
 }
 
 .navbar-brand {
-    color: rgb(203, 203, 65) !important;
-    font-size: 36px !important;
-    border: solid thick  rgb(203, 203, 65);
-
+  color: rgb(203, 203, 65) !important;
+  font-size: 36px !important;
+  border: solid thick rgb(203, 203, 65);
 }
 
 .nav-link {
-    color: white !important;
-    font-weight: bold;
-    font-size: 24px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 #Home {
-    color: rgb(181, 206, 68) !important;
+  color: rgb(181, 206, 68) !important;
 }
 
 #Resume {
-    color: rgb(156, 220, 254)!important;
+  color: rgb(156, 220, 254) !important;
 }
 
 #Portfolio {
-    color: rgb(206, 145, 120) !important;
+  color: rgb(206, 145, 120) !important;
 }
 
 .jumbotron {
-    background-color: rgb(30, 30, 30);
+  background-color: rgb(30, 30, 30);
 }
 
 #title-holder {
-    border: thick solid  rgb(80, 143, 204);
-   
+  border: thick solid rgb(80, 143, 204);
 }
 
 #title {
-    color: rgb(80, 143, 204)
+  color: rgb(80, 143, 204);
 }
 
 .img-thumbnail {
-    height: 150px;
-    width: 150px;
-    border: thick rgb(181, 206, 68) solid;
-    background-color: rgb(30, 30, 30);
+  height: 150px;
+  width: 150px;
+  border: thick rgb(181, 206, 68) solid;
+  background-color: rgb(30, 30, 30);
 }
 .img-thumbnail:hover {
-    background-color: yellow;
-    border: thick solid rgb(156, 220, 254);
+  background-color: yellow;
+  border: thick solid rgb(156, 220, 254);
 }
 .card {
-    background-color: black;
-    border: thick rgb(181, 206, 68) solid;
+  background-color: black;
+  border: thick rgb(181, 206, 68) solid;
 }
 
 .card-title {
-    color: rgb(203, 203, 65);
+  color: rgb(203, 203, 65);
 }
 
 #p1 {
-    color: rgb(206, 145, 120);
+  color: rgb(206, 145, 120);
 }
 #small {
-    color: rgb(156, 220, 254) !important;
+  color: rgb(156, 220, 254) !important;
 }
 
 #bamazon {
-    background-color: white !important;
+  background-color: white !important;
 }
 
-
-
 .port-buttons:hover {
-    background-color: ivory !important;
-    color: black !important;
+  background-color: ivory !important;
+  color: black !important;
 }
 
 footer {
-    background-color: rgb(30, 30, 30);
-    color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    text-align: center !important;
-    /* padding: 10px !important; */
-    width: 100%;
-    /* border-top: white solid thick; */
-    overflow: hidden !important;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center !important;
+  /* padding: 10px !important; */
+  width: 100%;
+  /* border-top: white solid thick; */
+  overflow: hidden !important;
 }
